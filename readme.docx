@@ -7,3 +7,4 @@
 3. Write down a scenario that will not involve a merge conflict between develop and conflict_branch
 - If one person adds a line of text on line 1 of a file, and someone adds another line of text on line 50 of the same file, this will not create a merge conflict if the two files do not have conflicting changes. 
 
+
