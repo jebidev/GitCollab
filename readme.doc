@@ -1,0 +1,10 @@
+1. Both Merges are fast-forward merges: Explain
+- Each merge is developed off of main, adding some changes into the branch. Main branch has no conflicting edits compared to the edits on the branch. There is no diverging commits between the branches. This will "fast-forward" the main branch to add in the changes of the branches.
+
+2. Write down a scenario that will involve a merge conflict between develop and conflict_branch.
+- If one person edits a line of develop to say "added line", and another person adds on that same line on conflict_branch that says "added a conflicting line", this will cause a merge conflict.
+
+3. Write down a scenario that will not involve a merge conflict between develop and conflict_branch
+- If one person adds a line of text on line 1 of a file, and someone adds another line of text on line 50 of the same file, this will not create a merge conflict if the two files do not have conflicting changes.
+
+![alt text](https://drive.google.com/file/d/1WKnD4bWeEUd_URVOf6ylhcd1KXBti6cS/view?usp=sharing)
